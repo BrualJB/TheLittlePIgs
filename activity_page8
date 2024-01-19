@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="@drawable/page9"
+    tools:context=".page8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Then the wolf showed his teeth and"
+            android:layout_marginTop="160dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="said:"
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Then I'll puff"
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="and I'll puff"
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="and I'll blow your house down."
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="So he huffed and puffed and he blew"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="the house down! But he count not make"
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="the house fall down. He was so tired"
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="that he could not huff anymore. He"
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="stopped and take a break and think"
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="139dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="120dp"
+            android:backgroundTint="#11A0ED"
+            android:onClick="goTopage7"
+            android:text="Back"
+            android:textColor="#FFF"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="139dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/back_button"
+            android:backgroundTint="#11A0ED"
+            android:onClick="goTopage9"
+            android:text="Next"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>
