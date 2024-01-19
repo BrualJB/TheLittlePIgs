@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7"
+    android:background="@drawable/page10"
+    tools:context=".page9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The wolf thought of another way to get"
+            android:layout_marginTop="160dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="in."
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="He climbed up a tree and went to the"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="roof. He saw the chimney and wanted"
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="to go down it. But the third pig was"
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="smart and he made a fire in the"
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fireplace. He also put a big pot of water"
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="on the fire."
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The wolf. did not see"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="the fire or the water. He"
+            android:layout_marginStart="50dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="went down the"
+            android:layout_marginStart="50dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="chimney, but he fell into"
+            android:layout_marginStart="50dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="the pot. The water was"
+            android:layout_marginStart="50dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="very hot and it burned."
+            android:layout_marginStart="50dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="him. He jumped out of"
+            android:layout_marginStart="50dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="they chimney and ran away from"
+            android:layout_marginStart="50dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="the house."
+            android:layout_marginStart="50dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="0.5"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="139dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="120dp"
+            android:backgroundTint="#11A0ED"
+            android:onClick="goTopage8"
+            android:text="Back"
+            android:textColor="#FFF"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="139dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@id/back_button"
+            android:backgroundTint="#11A0ED"
+            android:onClick="goTopage10"
+            android:text="Next"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>
