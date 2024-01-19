@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="@drawable/page8"
+    tools:context=".page7">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="the wolf followed him and saw the"
+            android:layout_marginTop="160dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="brick house and smelled the pig inside."
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="He asked the pigs to let him in. So he"
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="knocked on the door and said:"
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Little pig! Little pig! Let me in! Let me in!"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="But the little pigs saw the wolf's big"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="15dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ears through the keyhole, so they"
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="answered back:"
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No! No! No! by the hairs on my"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="chinny chin chin!"
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="139dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="120dp"
+            android:backgroundTint="#11A0ED"
+            android:onClick="goTopage6"
+            android:text="Back"
+            android:textColor="#FFF"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="139dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/back_button"
+            android:backgroundTint="#11A0ED"
+            android:onClick="goTopage8"
+            android:text="Next"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>
