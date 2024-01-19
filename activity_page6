@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="7"
+    android:background="@drawable/page7"
+    tools:context=".page6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Then the wolf showed"
+            android:layout_marginTop="250dp"
+            android:layout_marginEnd="90dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="his teeth and said:"
+            android:layout_marginEnd="90dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="then I'll huff"
+            android:layout_marginEnd="90dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="and I'll puff"
+            android:layout_marginEnd="90dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="and i'll blow your"
+            android:layout_marginEnd="90dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="house down."
+            android:layout_marginEnd="90dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="So he huffed and he"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="0dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="puffed and he blew the"
+            android:layout_marginStart="85dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="house down! the wolf"
+            android:layout_marginStart="85dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="open his jaws very"
+            android:layout_marginStart="85dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="wide and bit down as"
+            android:layout_marginStart="85dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hard as he could, but"
+            android:layout_marginStart="85dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="the two little pig"
+            android:layout_marginStart="85dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="escape and ran away"
+            android:layout_marginStart="85dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="to hide with the third"
+            android:layout_marginStart="85dp"
+            android:textStyle="bold"
+            android:textSize = "17dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="little pig."
+            android:layout_marginStart="85dp"
+            android:textStyle="bold"
+            android:textSize = "16dp"
+            android:textColor="#FAFAFA" />
+
+        =
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight=".5"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="139dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="120dp"
+            android:backgroundTint="#11A0ED"
+            android:onClick="goTopage5"
+            android:text="Back"
+            android:textColor="#FFF"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="139dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/back_button"
+            android:backgroundTint="#11A0ED"
+            android:onClick="goTopage7"
+            android:text="Next"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>
