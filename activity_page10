@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="@drawable/page11"
+    tools:context=".page10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The first pig and second pig were"
+            android:layout_marginTop="150dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sorry for being lazy and careless. They"
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="thanked the third pig for saving them."
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The third pig taught them how to make"
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="brick house too."
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="They all lived happily ever after in their"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="brick homes"
+            android:layout_marginStart="0dp"
+            android:textStyle="bold"
+            android:textSize = "18dp"
+            android:textColor="#FAFAFA" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:gravity = "center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="139dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="-30dp"
+            android:backgroundTint="#11A0ED"
+            android:onClick="goToactivityMain"
+            android:text="THE END"
+            android:textColor="#FFF"
+            android:textSize="18dp" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
